@@ -5,6 +5,46 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var data_personal_info = {
+  title: 'Karthikeyan Natesan | Personal Info',
+  profile_section_header: 'Personal Info',
+  profile_section_tbl_data: `
+                    <table>
+                        <tbody>
+                            <tr>
+                                <th>Name</th>
+                                <th>:</th>
+                                <td>Karthikeyan Natesan</td>
+                            </tr>
+                            <tr>
+                                <th>Gender</th>
+                                <th>:</th>
+                                <td>Male</td>
+                            </tr>
+                            <tr>
+                                <th>Birth Day</th>
+                                <th>:</th>
+                                <td>25th Oct</td>
+                            </tr>
+                            <tr>
+                                <th>Marital Status</th>
+                                <th>:</th>
+                                <td>Married</td>
+                            </tr>
+                            <tr>
+                                <th>Citizenship</th>
+                                <th>:</th>
+                                <td>Indian</td>
+                            </tr>
+                            <tr>
+                                <th>Language</th>
+                                <th>:</th>
+                                <td>Tamil, Kannada, English</td>
+                            </tr>                            
+                        </tbody>
+                    </table>`
+};
+
 function createProfileAppTemplate(data)
 {
     var title = data.title;
