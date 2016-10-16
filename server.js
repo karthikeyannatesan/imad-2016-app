@@ -66,7 +66,7 @@ var objProfileData = {
                                             <th class="center">Period</th>
                                         </tr>       
                                         <tr>
-                                            <th class="center"><hr /></th>
+                                            <th class="center" colspan="7"><hr /></th>
                                         </tr>                                        
                                         <tr>
                                             <td>B.E Computer Science</td>
