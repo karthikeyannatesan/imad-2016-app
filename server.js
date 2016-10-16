@@ -58,7 +58,7 @@ var objProfileData = {
                                     <tbody>
                                         <tr>
                                             <th class="center">Qualification</th>
-                                            <th class="center">institution</th>
+                                            <th class="center">Institution</th>
                                             <th class="center">Percentage</th>
                                             <th class="center">Period</th>
                                         </tr>       
