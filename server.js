@@ -100,7 +100,8 @@ app.get('/', function (req, res) {
 });
 
 app.get('/personal-info', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'personal-info.html'));
+  //res.sendFile(path.join(__dirname, 'ui', 'personal-info.html'));
+  res.send(createProfileAppTemplate(data_personal_info));
 });
 
 
