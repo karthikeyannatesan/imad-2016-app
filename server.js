@@ -73,7 +73,7 @@ var objProfileData = {
                                     </tbody>
                                 </table>`
         }, 
-        'address-info': {
+        'communication-address-info': {
               title: 'Karthikeyan Natesan | Employment Info',
               profile_section_header: 'COMMUNICATION ADDRESS',
               profile_section_tbl_data: `
@@ -136,7 +136,7 @@ function createProfileAppTemplate(data)
         			    &nbsp;|&nbsp;
         			    <a href="/employment-info" title="Click here to view Profesional Experience">Employment Details</a>
         			    &nbsp;|&nbsp;
-        			    <a href="/address-info" title="Click here to view Address">Address</a>
+        			    <a href="/communication-address-info" title="Click here to view Address">Communication Address</a>
         			    &nbsp;|&nbsp;
         			    <a href="/econtact-info" title="Click here to view e-Contact">E-Contact</a>
         			</div>
