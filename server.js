@@ -94,7 +94,10 @@ var objProfileData = {
                                             <td class="center">70</td>
                                             <td>&nbsp;|&nbsp;</td>
                                             <td class="center">1996 to 1997</td>
-                                        </tr>                                                                
+                                        </tr>   
+                                        <tr>
+                                            <th class="center" colspan="7"><hr /></th>
+                                        </tr>                                         
                                     </tbody>
                                 </table>`
         },
