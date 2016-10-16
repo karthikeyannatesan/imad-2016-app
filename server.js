@@ -146,13 +146,10 @@ var objProfileData = {
         }, 
         'address-info': {
               title: 'Karthikeyan Natesan | Employment Info',
-              profile_section_header: '',
+              profile_section_header: 'Communication Address',
               profile_section_tbl_data: `
                                 <table>
                                     <tbody>
-                                        <tr>
-                                            <th><h3>Communication Address</h3></th>
-                                        </tr>
                                         <tr>
                                             <td>B1, 66/67, RAJ PARIS GEM, JANAKPURI 1ST STREET, 100FT. BY PASS ROAD, VELACHERY, CHENNAI, TN - 600042
 											</td>
