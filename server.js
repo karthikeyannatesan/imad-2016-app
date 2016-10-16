@@ -75,7 +75,7 @@ var objProfileData = {
         }, 
         'address-info': {
               title: 'Karthikeyan Natesan | Employment Info',
-              profile_section_header: 'EMPLOYMENT INFORMATION',
+              profile_section_header: 'COMMUNICATION ADDRESS',
               profile_section_tbl_data: `
                                 <table>
                                     <tbody>
