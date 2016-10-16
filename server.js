@@ -52,15 +52,34 @@ var objProfileData = {
         },
         'qualification-info': {
               title: 'Karthikeyan Natesan | Qualification Info',
-              profile_section_header: 'QUALIFICATION INFORMATION',
+              profile_section_header: 'EDUCATIONAL QUALIFICATION',
               profile_section_tbl_data: `
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <th>Header</th>
-                                            <th>:</th>
-                                            <td>Data</td>
-                                        </tr>                      
+                                            <th class="center">Qualification</th>
+                                            <th class="center">institution</th>
+                                            <th class="center">Percentage</th>
+                                            <th class="center">Period</th>
+                                        </tr>       
+                                        <tr>
+                                            <td>B.E Computer Science</td>
+                                            <td>National Engineering College</td>
+                                            <td>71</td>
+                                            <td>2001 to 2005</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Diploma in Leather Technology</td>
+                                            <td>Arulmigu Chandigeswarar Polytechnic</td>
+                                            <td>83</td>
+                                            <td>1997 to 2000</td>
+                                        </tr>                                         
+                                        <tr>
+                                            <td>S.S.L.C</td>
+                                            <td>P.M.H.S.S</td>
+                                            <td>70</td>
+                                            <td>1996 to 1997</td>
+                                        </tr>                                                                
                                     </tbody>
                                 </table>`
         },
