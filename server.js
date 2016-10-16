@@ -58,8 +58,11 @@ var objProfileData = {
                                     <tbody>
                                         <tr>
                                             <th class="center">Qualification</th>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <th class="center">Institution</th>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <th class="center">Percentage</th>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <th class="center">Period</th>
                                         </tr>       
                                         <tr>
