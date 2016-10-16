@@ -132,13 +132,13 @@ function createProfileAppTemplate(data)
         			    &nbsp;|&nbsp;
                         <a href="/personal-info" title="Click here to view Personal Info">Personal Info</a>
         			    &nbsp;|&nbsp;
-        			    <a href="/personal-info" title="Click here to view Qualifications">Qualifications</a>
+        			    <a href="/qualification-info" title="Click here to view Qualifications">Qualifications</a>
         			    &nbsp;|&nbsp;
-        			    <a href="/personal-info" title="Click here to view Profesional Experience">Employment Details</a>
+        			    <a href="/employment-info" title="Click here to view Profesional Experience">Employment Details</a>
         			    &nbsp;|&nbsp;
-        			    <a href="/personal-info" title="Click here to view Address">Address</a>
+        			    <a href="/address-info" title="Click here to view Address">Address</a>
         			    &nbsp;|&nbsp;
-        			    <a href="/personal-info" title="Click here to view e-Contact">E-Contact</a>
+        			    <a href="/econtact-info" title="Click here to view e-Contact">E-Contact</a>
         			</div>
             		<hr />
             		<h3>${profile_section_header}</h3>
