@@ -41,6 +41,13 @@ a:active {
     color: black;
 }   
 
+/* section header */
+h3 {
+    font-size:18px;
+    font-weight:600;
+    color: black;
+}
+
 /* Proile Content Table */
 table, th,td {
     border: 0px;
