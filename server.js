@@ -115,7 +115,7 @@ var objProfileData = {
                                             <th class="center">Period</th>
                                         </tr>       
                                         <tr>
-                                            <th class="center" colspan="7"><hr /></th>
+                                            <th class="center" colspan="5"><hr /></th>
                                         </tr>                                        
                                         <tr>
                                             <td>Maveric Systems Limited</td>
