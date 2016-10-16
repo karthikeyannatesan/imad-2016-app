@@ -1,1 +1,53 @@
- 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    color: gray;
+    font-family: sans-sarif;
+    border: 0px;
+}
+.menu-container {
+    font-size:12px;
+}
+/* unvisited link */
+a:link {
+    color: #0066ff;
+    text-decoration: none;
+    font-weight:normal;              
+}
+
+/* visited link */
+a:visited {
+    color: #0066ff;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+/* mouse over link */
+a:hover {
+    color: #0066ff;
+    text-decoration: underline;
+    font-weight:900;
+}
+
+/* selected link */
+a:active {
+    color: #0066ff;
+    text-decoration: underline;
+    font-weight:900;
+}        
+.profile-data-container {
+    font-size:14px;
+    font-weight:normal;
+    color: black;
+}   
+
+/* Proile Content Table */
+table, th,td {
+    border: 0px;
+    margin: 0px auto;
+}
+
+/* Proile Content table's header cell and data cell */
+th, td {
+    text-align: left;
+}    
