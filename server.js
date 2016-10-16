@@ -153,13 +153,13 @@ var objProfileData = {
                                         <tr>
                                             <th>Communication Address</th>
                                             <th>:</th>
-                                            <td>B1, 66/67, RAJ PARIS GEM, JANAKPURI 1ST STREET, 100FT. BY PASS ROAD, VELACHERY, CHENNAI, TN, 600042
+                                            <td>B1, 66/67, RAJ PARIS GEM, JANAKPURI 1ST STREET, 100FT. BY PASS ROAD, VELACHERY, CHENNAI, TN - 600042
 											</td>
                                         </tr>   
 										<tr>
                                             <th>Permanent Address</th>
                                             <th>:</th>
-                                            <td>15-3-33/2, AMARAVATHI NAGAR, NEAR TOWN PANCHAYAT PARK, B. RENGANATHAPURAM, M.C. PURAM POST, BODI TK., THENI DT., TN, 625582
+                                            <td>15-3-33/2, AMARAVATHI NAGAR, NEAR TOWN PANCHAYAT PARK, B. RENGANATHAPURAM, M.C. PURAM POST, BODI TK., THENI DT., TN - 625582
 											</td>
                                         </tr> 
                                     </tbody>
