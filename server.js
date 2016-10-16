@@ -83,7 +83,7 @@ function createProfileAppTemplate(data)
         			    <a href="/personal-info" title="Click here to view e-Contact">e-Contact</a>
         			</div>
             		<hr />
-            		<h1>${profile_section_header}</h1>
+            		<h3>${profile_section_header}</h3>
         			<div class="profile-data-container">
                         ${profile_section_tbl_data}
         			</div>            
