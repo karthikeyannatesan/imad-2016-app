@@ -155,8 +155,8 @@ function createProfileAppTemplate(data)
 
 
 
-app.get('/:profileSection', function (req, res) {
-  res.send(createProfileAppTemplate(objProfileData[profileSection]));
+app.get('/:profileSectionName', function (req, res) {
+  res.send(createProfileAppTemplate(objProfileData[profileSectionName]));
 });
 
 app.get('/', function (req, res) {
