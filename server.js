@@ -6,6 +6,11 @@ var app = express();
 app.use(morgan('combined'));
 
 var objProfileData = {
+        'profile-home-page': {
+              title: 'Karthikeyan Natesan | Profile Info',
+              profile_section_header: '',
+              profile_section_tbl_data: ''
+        },
         'personal-info': {
               title: 'Karthikeyan Natesan | Personal Info',
               profile_section_header: 'PERSONAL INFORMATION',
@@ -157,6 +162,11 @@ function createProfileAppTemplate(data)
 
 app.get('/:profileSectionName', function (req, res) {
     var profileSectionName = req.params.profileSectionName;
+  res.send(createProfileAppTemplate(objProfileData[profileSectionName]));
+});
+
+app.get('/', function (req, res) {
+    var profileSectionName = 'profile-home-page';
   res.send(createProfileAppTemplate(objProfileData[profileSectionName]));
 });
 
