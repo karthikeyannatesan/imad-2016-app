@@ -166,7 +166,6 @@ var objProfileData = {
                                             <th><h3>Permanent Address</h3></th>
                                         </tr>
                                         <tr>
-                                            <th>:</th>
                                             <td>15-3-33/2, AMARAVATHI NAGAR, NEAR TOWN PANCHAYAT PARK, B. RENGANATHAPURAM, M.C. PURAM POST, BODI TK., THENI DT., TN - 625582
 											</td>
                                         </tr> 
