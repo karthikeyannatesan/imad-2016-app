@@ -5,6 +5,54 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+function createProfileAppTemplate(data)
+{
+    var title = data.title;
+    var profile_section_header = data.profile_section_header;
+    var profile_section_tbl_data = data.profile_section_tbl_data;
+    var html_template = `
+        <!doctype html>
+        <html>
+            <head>
+                <title>${title}</title>
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <link href="/ui/style.css" rel="stylesheet" />
+                <link href="/ui/profile-styles.css" rel="stylesheet" />
+            </head>
+            <body>
+                <div class="container">
+                    <div class="center">
+                        <img src="http://web.karthikeyannatesan.in/images/nkarthikeyan.jpg" class="img-medium"/>
+                    </div>
+                    <br>
+                    <div class="center text-big bold">
+                        Karthikeyan Natesan
+                    </div>
+            		<hr />
+        			<div class="center menu-container">
+        			    <a href="/" title="Click here to go profile home">Home</a>
+        			    &nbsp;|&nbsp;
+                        <a href="/personal-info" title="Click here to view Personal Info">Personal Info</a>
+        			    &nbsp;|&nbsp;
+        			    <a href="/personal-info" title="Click here to view Qualifications">Qualifications</a>
+        			    &nbsp;|&nbsp;
+        			    <a href="/personal-info" title="Click here to view Profesional Experience">Profesional Experience</a>
+        			    &nbsp;|&nbsp;
+        			    <a href="/personal-info" title="Click here to view Address">Address</a>
+        			    &nbsp;|&nbsp;
+        			    <a href="/personal-info" title="Click here to view e-Contact">e-Contact</a>
+        			</div>
+            		<hr />
+            		<h1>${profile_section_header}</h1>
+        			<div class="profile-data-container">
+                        ${profile_section_tbl_data}
+        			</div>            
+                </div>
+            </body>
+        </html>
+    `;
+}
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
