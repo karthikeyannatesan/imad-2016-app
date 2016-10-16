@@ -272,7 +272,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-
+*/
 app.get('/personal-info', function (req, res) {
   //res.sendFile(path.join(__dirname, 'ui', 'personal-info.html'));
   res.send(createProfileAppTemplate(data_personal_info));
@@ -290,7 +290,7 @@ app.get('/article-two', function (req, res) {
 app.get('/article-three', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
 });
-*/
+
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
