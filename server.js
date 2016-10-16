@@ -70,20 +70,29 @@ var objProfileData = {
                                         </tr>                                        
                                         <tr>
                                             <td>B.E Computer Science</td>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <td>National Engineering College</td>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <td class="center">71</td>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <td class="center">2001 to 2005</td>
                                         </tr>
                                         <tr>
                                             <td>Diploma in Leather Technology</td>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <td>Arulmigu Chandigeswarar Polytechnic</td>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <td class="center">83</td>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <td class="center">1997 to 2000</td>
                                         </tr>                                         
                                         <tr>
                                             <td>S.S.L.C</td>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <td>P.M.H.S.S</td>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <td class="center">70</td>
+                                            <td>&nbsp;|&nbsp;</td>
                                             <td class="center">1996 to 1997</td>
                                         </tr>                                                                
                                     </tbody>
