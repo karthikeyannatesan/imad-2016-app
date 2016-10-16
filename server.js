@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var data_profile_info = {
+var objProfileData = {
         'personal-info': {
               title: 'Karthikeyan Natesan | Personal Info',
               profile_section_header: 'PERSONAL INFORMATION',
@@ -153,9 +153,16 @@ function createProfileAppTemplate(data)
     return html_template;
 }
 
+
+
+app.get('/:profileSection', function (req, res) {
+  res.send(createProfileAppTemplate(objProfileData[profileSection]));
+});
+
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+
 
 app.get('/personal-info', function (req, res) {
   //res.sendFile(path.join(__dirname, 'ui', 'personal-info.html'));
