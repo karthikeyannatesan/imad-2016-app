@@ -5,44 +5,102 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var data_personal_info = {
-  title: 'Karthikeyan Natesan | Personal Info',
-  profile_section_header: 'PERSONAL INFORMATION',
-  profile_section_tbl_data: `
-                    <table>
-                        <tbody>
-                            <tr>
-                                <th>Name</th>
-                                <th>:</th>
-                                <td>Karthikeyan Natesan</td>
-                            </tr>
-                            <tr>
-                                <th>Gender</th>
-                                <th>:</th>
-                                <td>Male</td>
-                            </tr>
-                            <tr>
-                                <th>Birth Day</th>
-                                <th>:</th>
-                                <td>25th Oct</td>
-                            </tr>
-                            <tr>
-                                <th>Marital Status</th>
-                                <th>:</th>
-                                <td>Married</td>
-                            </tr>
-                            <tr>
-                                <th>Citizenship</th>
-                                <th>:</th>
-                                <td>Indian</td>
-                            </tr>
-                            <tr>
-                                <th>Language</th>
-                                <th>:</th>
-                                <td>Tamil, Kannada, English</td>
-                            </tr>                            
-                        </tbody>
-                    </table>`
+var data_profile_info = {
+        'personal-info': {
+              title: 'Karthikeyan Natesan | Personal Info',
+              profile_section_header: 'PERSONAL INFORMATION',
+              profile_section_tbl_data: `
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>:</th>
+                                            <td>Karthikeyan Natesan</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Gender</th>
+                                            <th>:</th>
+                                            <td>Male</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Birth Day</th>
+                                            <th>:</th>
+                                            <td>25th Oct</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Marital Status</th>
+                                            <th>:</th>
+                                            <td>Married</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Citizenship</th>
+                                            <th>:</th>
+                                            <td>Indian</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Language</th>
+                                            <th>:</th>
+                                            <td>Tamil, Kannada, English</td>
+                                        </tr>                            
+                                    </tbody>
+                                </table>`
+        },
+        'qualification-info': {
+              title: 'Karthikeyan Natesan | Qualification Info',
+              profile_section_header: 'QUALIFICATION INFORMATION',
+              profile_section_tbl_data: `
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Header</th>
+                                            <th>:</th>
+                                            <td>Data</td>
+                                        </tr>                      
+                                    </tbody>
+                                </table>`
+        },
+        'employment-info': {
+              title: 'Karthikeyan Natesan | Employment Info',
+              profile_section_header: 'EMPLOYMENT INFORMATION',
+              profile_section_tbl_data: `
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Header</th>
+                                            <th>:</th>
+                                            <td>Data</td>
+                                        </tr>                      
+                                    </tbody>
+                                </table>`
+        }, 
+        'address-info': {
+              title: 'Karthikeyan Natesan | Employment Info',
+              profile_section_header: 'EMPLOYMENT INFORMATION',
+              profile_section_tbl_data: `
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Header</th>
+                                            <th>:</th>
+                                            <td>Data</td>
+                                        </tr>                      
+                                    </tbody>
+                                </table>`
+        },      
+        'econtact-info': {
+              title: 'Karthikeyan Natesan | E-Contact Info',
+              profile_section_header: 'EMPLOYMENT INFORMATION',
+              profile_section_tbl_data: `
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Header</th>
+                                            <th>:</th>
+                                            <td>Data</td>
+                                        </tr>                      
+                                    </tbody>
+                                </table>`
+        },        
 };
 
 function createProfileAppTemplate(data)
@@ -76,11 +134,11 @@ function createProfileAppTemplate(data)
         			    &nbsp;|&nbsp;
         			    <a href="/personal-info" title="Click here to view Qualifications">Qualifications</a>
         			    &nbsp;|&nbsp;
-        			    <a href="/personal-info" title="Click here to view Profesional Experience">Profesional Experience</a>
+        			    <a href="/personal-info" title="Click here to view Profesional Experience">Employment Details</a>
         			    &nbsp;|&nbsp;
         			    <a href="/personal-info" title="Click here to view Address">Address</a>
         			    &nbsp;|&nbsp;
-        			    <a href="/personal-info" title="Click here to view e-Contact">e-Contact</a>
+        			    <a href="/personal-info" title="Click here to view e-Contact">E-Contact</a>
         			</div>
             		<hr />
             		<h3>${profile_section_header}</h3>
