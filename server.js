@@ -108,9 +108,38 @@ var objProfileData = {
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <th>Header</th>
-                                            <th>:</th>
-                                            <td>Data</td>
+                                            <th class="center">Organisation</th>
+                                            <td>&nbsp;|&nbsp;</td>
+                                            <th class="center">Designation</th>
+                                            <td>&nbsp;|&nbsp;</td>
+                                            <th class="center">Period</th>
+                                        </tr>       
+                                        <tr>
+                                            <th class="center" colspan="7"><hr /></th>
+                                        </tr>                                        
+                                        <tr>
+                                            <td>Maveric Systems Limited</td>
+                                            <td>&nbsp;|&nbsp;</td>
+                                            <td>Assistant Manager</td>
+                                            <td>&nbsp;|&nbsp;</td>
+                                            <td class="center">Feb, 2015 to present</td>
+                                        </tr>
+                                        <tr>
+                                            <td>MCCI Interconnect Solutions Pvt. Ltd.</td>
+                                            <td>&nbsp;|&nbsp;</td>
+                                            <td>Team Leader</td>
+                                            <td>&nbsp;|&nbsp;</td>
+                                            <td class="center">May, 2010 to Jan, 2015</td>
+                                        </tr>                                         
+                                        <tr>
+                                            <td>Acme Technologies Pvt. Ltd.</td>
+                                            <td>&nbsp;|&nbsp;</td>
+                                            <td>Senior Software Engineer</td>
+                                            <td>&nbsp;|&nbsp;</td>
+                                            <td class="center">Dec, 2005 to Apr, 2010</td>
+                                        </tr>   
+                                        <tr>
+                                            <th class="center" colspan="7"><hr /></th>
                                         </tr>                      
                                     </tbody>
                                 </table>`
