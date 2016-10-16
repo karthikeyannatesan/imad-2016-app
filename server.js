@@ -146,18 +146,26 @@ var objProfileData = {
         }, 
         'address-info': {
               title: 'Karthikeyan Natesan | Employment Info',
-              profile_section_header: 'ADDRESS',
+              profile_section_header: '',
               profile_section_tbl_data: `
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <th>Communication Address</th>
-                                            <th>:</th>
+                                            <th><h3>Communication Address</h3></th>
+                                        </tr>
+                                        <tr>
                                             <td>B1, 66/67, RAJ PARIS GEM, JANAKPURI 1ST STREET, 100FT. BY PASS ROAD, VELACHERY, CHENNAI, TN - 600042
 											</td>
                                         </tr>   
+                                    </tbody>
+                                </table>
+                                <hr />
+                                <table>
+                                    <tbody>                                
 										<tr>
-                                            <th>Permanent Address</th>
+                                            <th><h3>Permanent Address</h3></th>
+                                        </tr>
+                                        <tr>
                                             <th>:</th>
                                             <td>15-3-33/2, AMARAVATHI NAGAR, NEAR TOWN PANCHAYAT PARK, B. RENGANATHAPURAM, M.C. PURAM POST, BODI TK., THENI DT., TN - 625582
 											</td>
