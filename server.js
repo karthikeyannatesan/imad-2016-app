@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 var data_personal_info = {
   title: 'Karthikeyan Natesan | Personal Info',
-  profile_section_header: 'Personal Info',
+  profile_section_header: 'PERSONAL INFORMATION',
   profile_section_tbl_data: `
                     <table>
                         <tbody>
