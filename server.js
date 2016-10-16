@@ -156,6 +156,7 @@ function createProfileAppTemplate(data)
 
 
 app.get('/:profileSectionName', function (req, res) {
+    var profileSectionName = req.params.profileSectionName;
   res.send(createProfileAppTemplate(objProfileData[profileSectionName]));
 });
 
