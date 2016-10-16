@@ -38,7 +38,7 @@ var objProfileData = {
                                             <td>Married</td>
                                         </tr>
                                         <tr>
-                                            <th>Citizenship</th>
+                                            <th>Nationality</th>
                                             <th>:</th>
                                             <td>Indian</td>
                                         </tr>
