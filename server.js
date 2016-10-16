@@ -91,6 +91,8 @@ function createProfileAppTemplate(data)
             </body>
         </html>
     `;
+    
+    return html_template;
 }
 
 app.get('/', function (req, res) {
