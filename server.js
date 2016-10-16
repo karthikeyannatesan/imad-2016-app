@@ -176,10 +176,30 @@ var objProfileData = {
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <th>Header</th>
+                                            <th>E-Mail</th>
                                             <th>:</th>
-                                            <td>Data</td>
-                                        </tr>                      
+                                            <td>karthi.ltech@gmail.com</td>
+                                        </tr>      
+                                        <tr>
+                                            <th>Skype</th>
+                                            <th>:</th>
+                                            <td>nkarthi_keyan.acmet.com</td>
+                                        </tr>
+                                        <tr>
+                                            <th>LinkedIn</th>
+                                            <th>:</th>
+                                            <td>in.linkedin.com/in/karthikeyannatesan05feb1982</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Facebook</th>
+                                            <th>:</th>
+                                            <td>http://www.facebook.com/karthikeyan.natesan.5</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Twitter</th>
+                                            <th>:</th>
+                                            <td>https://twitter.com/karthi_ltech</td>
+                                        </tr>                                        
                                     </tbody>
                                 </table>`
         },        
