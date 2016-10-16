@@ -89,7 +89,7 @@ var objProfileData = {
         },      
         'econtact-info': {
               title: 'Karthikeyan Natesan | E-Contact Info',
-              profile_section_header: 'EMPLOYMENT INFORMATION',
+              profile_section_header: 'E-CONTACT',
               profile_section_tbl_data: `
                                 <table>
                                     <tbody>
