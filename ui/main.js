@@ -23,7 +23,7 @@ var cntbutton = document.getElementById('counter');
 
 
 cntbutton.onclick = function () {
-    var obj_request = XMLHttpRequest();
+    var obj_request = new XMLHttpRequest();
     obj_request.onreadystatechange = function () {
         if (obj_request.readyState === XMLHttpRequest.DONE) {
             if (obj_request.status === 200) {
