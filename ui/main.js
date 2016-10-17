@@ -18,3 +18,9 @@ function moveMarginLeft()
 myimg.onclick = function () {
         interval = setInterval(moveMarginLeft, 100);
 };
+
+var cntbutton = document.getElementById('counter');
+
+cntbutton.onclick = function () {
+    alert(`button is clicked!`);
+}
