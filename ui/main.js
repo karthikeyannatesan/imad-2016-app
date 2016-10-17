@@ -5,18 +5,16 @@ var marginleft = 0;
 
 function moveMarginLeft()
 {
-    marginleft = marginleft + 1;
-    myimg.style.marginLeft = marginleft + 'px';
-}
-
-myimg.onclick = function () {
-    var interval;
-    clearInterval(interval);
-    if (marginleft === 0) {
-        interval = setInterval(moveMarginLeft, 10);
+    if (marginleft <= 100) {
+        marginleft = marginleft + 1;
+        myimg.style.marginLeft = marginleft + 'px';
     }
     else {
         marginleft = 0;
-        myimg.style.marginLeft = '0px';
+        myimg.style.marginLeft = '0px';        
     }
+}
+
+myimg.onclick = function () {
+        interval = setInterval(moveMarginLeft, 10);
 };
