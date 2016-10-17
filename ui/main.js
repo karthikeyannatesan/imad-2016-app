@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
-var img_kpnk_pp = document.getElementById('kpnk-pp');
+var imgkpnkpp = document.getElementById('kpnk-pp');
 
-img_kpnk_pp.onClick = function () {
-    img_kpnk_pp.style.marginLeft = '50px';
+imgkpnkpp.onClick = function () {
+    imgkpnkpp.style.marginLeft = '50px';
 }
