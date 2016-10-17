@@ -259,7 +259,12 @@ function createProfileAppTemplate(data)
 
 app.get('/:profileSectionName', function (req, res) {
     var profileSectionName = req.params.profileSectionName;
-  res.send(createProfileAppTemplate(objProfileData[profileSectionName]));
+    if(profileSectionName.toString() = 'index.html') {
+        res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+    }
+    else {
+        res.send(createProfileAppTemplate(objProfileData[profileSectionName]));
+    }
 });
 
 app.get('/', function (req, res) {
