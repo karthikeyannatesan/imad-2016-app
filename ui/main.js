@@ -15,6 +15,7 @@ myimg.onclick = function () {
     }
     else {
         clearInterval(interval);
+        marginleft = 0;
         myimg.style.marginLeft = '0px';
     }
 };
