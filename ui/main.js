@@ -5,7 +5,7 @@ var marginleft = 0;
 
 function moveMarginLeft()
 {
-    if (marginleft <= 100) {
+    if (marginleft <= 400) {
         marginleft = marginleft + 1;
         myimg.style.marginLeft = marginleft + 'px';
     }
