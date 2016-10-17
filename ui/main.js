@@ -16,5 +16,5 @@ function moveMarginLeft()
 }
 
 myimg.onclick = function () {
-        interval = setInterval(moveMarginLeft, 10);
+        interval = setInterval(moveMarginLeft, 100);
 };
