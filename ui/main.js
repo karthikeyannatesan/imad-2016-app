@@ -2,6 +2,6 @@ console.log('Loaded!');
 
 var myimg = document.getElementById('myimg');
 
-myimg.onClick = function () {
+myimg.onclick = function () {
     alert('This is image');
 };
