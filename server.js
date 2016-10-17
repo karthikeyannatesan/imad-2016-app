@@ -260,7 +260,7 @@ function createProfileAppTemplate(data)
 app.get('/:profileSectionName', function (req, res) {
     var profileSectionName = req.params.profileSectionName;
     profileSectionName = profileSectionName.toString();
-    res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+
     if(profileSectionName == 'index.html') {
         res.sendFile(path.join(__dirname, 'ui', 'index.html'));
     }
