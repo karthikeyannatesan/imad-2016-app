@@ -1,7 +1,7 @@
 console.log('Loaded!');
 
-var imgkpnkpp = document.getElementById('kpnk-pp');
+var imgkpnkpp = document.getElementById('myimg');
 
-imgkpnkpp.onClick = function () {
+myimg.onClick = function () {
     alert(`This is image`);
 }
