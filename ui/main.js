@@ -20,10 +20,20 @@ myimg.onclick = function () {
 };
 
 var cntbutton = document.getElementById('counter');
-var cntspan = document.getElementById('count');
-var vist_counter = 0;
+
 
 cntbutton.onclick = function () {
-    vist_counter = vist_counter + 1;
-    cntspan.innerHTML = vist_counter;
+    var obj_request = XMLHttpRequest();
+    obj_request.onreadystatechange = function () {
+        if (obj_request.readyState === XMLHttpRequest.DONE) {
+            if (obj_request.status == 200) {
+                var vist_counter = obj_request.responseText;
+                var cntspan = document.getElementById('count');
+                cntspan.innerHTML = vist_counter.toString();            
+            }
+        }
+    }
+    
+    obj_request.open('GET', 'http://karthikeyannatesan.imad.hasura-app.io/counter', true);
+    obj_request.send(null);
 }
