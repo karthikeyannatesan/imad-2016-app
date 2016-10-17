@@ -26,7 +26,7 @@ cntbutton.onclick = function () {
     var obj_request = XMLHttpRequest();
     obj_request.onreadystatechange = function () {
         if (obj_request.readyState === XMLHttpRequest.DONE) {
-            if (obj_request.status == 200) {
+            if (obj_request.status === 200) {
                 var vist_counter = obj_request.responseText;
                 var cntspan = document.getElementById('count');
                 cntspan.innerHTML = vist_counter.toString();            
