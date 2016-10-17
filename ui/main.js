@@ -20,7 +20,10 @@ myimg.onclick = function () {
 };
 
 var cntbutton = document.getElementById('counter');
+var cntspan = document.getElementById('count');
+var vist_counter = 0;
 
 cntbutton.onclick = function () {
-    alert(`button is clicked!`);
+    vist_counter = vist_counter + 1;
+    cntspan.innerHTML = vist_counter;
 }
