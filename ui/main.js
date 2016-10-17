@@ -5,7 +5,7 @@ var marginleft = 0;
 
 function moveMarginLeft()
 {
-    marginleft = marginleft + 10;
+    marginleft = marginleft + 1;
     myimg.style.marginLeft = marginleft + 'px';
 }
 
