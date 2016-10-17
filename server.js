@@ -5,6 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var profile_visit_counter = 0;
 var objProfileData = {
         'profile-home-page': {
               title: 'Karthikeyan Natesan | Profile Info',
@@ -264,6 +265,10 @@ app.get('/:profileSectionName', function (req, res) {
     if(profileSectionName == 'index.html') {
         res.sendFile(path.join(__dirname, 'ui', 'index.html'));
     }
+    else if(profileSectionName == 'counter') {
+        profile_visit_counter = profile_visit_counter + 1;
+        res.send(profile_visit_counter.toString());
+    }
     else {
         res.send(createProfileAppTemplate(objProfileData[profileSectionName]));
     }
@@ -273,6 +278,8 @@ app.get('/', function (req, res) {
     var profileSectionName = 'profile-home-page';
   res.send(createProfileAppTemplate(objProfileData[profileSectionName]));
 });
+
+
 
 /*
 app.get('/', function (req, res) {
