@@ -10,11 +10,12 @@ function moveMarginLeft()
 }
 
 myimg.onclick = function () {
+    var interval;
+    clearInterval(interval);
     if (marginleft === 0) {
-        var interval = setInterval(moveMarginLeft, 10);
+        interval = setInterval(moveMarginLeft, 10);
     }
     else {
-        clearInterval(interval);
         marginleft = 0;
         myimg.style.marginLeft = '0px';
     }
